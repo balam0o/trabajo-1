@@ -1,150 +1,48 @@
-body {
-	background-image: url("fondo.jpg"), 
-	url("contact.jpg"), url("academic.jpg"),
-	url(skill.jpg), url(pexp.jpg), url(proexp.jpg), url(interests.png),
-	url(software.jpg), url(references.jpg), url(languajes.jpg);
-	background-position: top,0px 350px, 365px 350px, 916px 350px, 1180px 
-	350px, 0px 700px, 350px 700px, 700px 700px, 1150px 700px, 1632px 700px;
-	background-size: 100% 120%, 20%, 30%, 14.65%, 40% 125%, 20% 122%, 
-	20% 123%, 25% 122%, 26%, 12%;
-	background-repeat: no-repeat;
-	color: white;
-	max-width: 100%;
- 	height: auto;
-}
-h3 {
-	background-color: green;
-	color: black;
-	font-size: arial;
-	position: absolute;
-	width: 20%;
-	top: 10%;
-}
-h1 {
-	font-size: arial;
-	text-align: right;
+.home{
+	display: flex
+	flex-wrap: wrap;
 }
 
-p.p1 {
-	position: absolute;
-	top: 50%;
-	color: white;
+.in-flex{
+	flex: 1;
+	min-width: 250px;
 }
 
-h2.hdos{
-	position: absolute;
-	top: 45%;
-	color: white;
+.in-flex: first-child{
+	flex: 2;
+	padding: 25px;
+	background-color: #fff;
+	margin: 20px;
+	margin-bottom: 0px;
 }
 
-p.p2 {
-	position: absolute;
-	top: 45%;
-	left: 25%;
-	color: black;
+.in-flex div{
+	padding: 25px;
+	background-color: #fff;
+	margin: 20px;
 }
 
-h2.htres{
-	position: absolute;
-	top: 40%;
-	left: 25%;
-	color: black;
+#nombre {
+    background-color: black;
+    font-size: 1.5cm;
+    text-align: center;
+    color: whitesmoke;
 }
 
-p.p3 {
-	position: absolute;
-	top: 50%;
-	left: 55%;
-	color: white;
+#contacto {
+	font-size: 0.5cm;
 }
 
-h2.hcuatro{
-	position: absolute;
-	top: 45%;
-	left: 55%;
-	color: white;
+#cuerpo {
+    background-color: lightblue;
 }
 
-p.p4 {
-	position: absolute;
-	top: 50%;
-	left: 70%;
-	color: black;
+#informacion {
+	margin-left: 5cm;
+	background-color: gray;
 }
 
-h2.hcinco{
-	position: absolute;
-	top: 45%;
-	left: 70%;
-	color: black;
+h2 {
+	margin-left: 1cm;
+	background-color: gray;
 }
-
-p.p5 {
-	position: absolute;
-	top: 85%;
-	color: white;
-}
-
-h2.hseis{
-	position: absolute;
-	top: 80%;
-	color: white;
-}
-
-p.p6 {
-	position: absolute;
-	top: 85%;
-	left: 22%;
-	color: white;
-}
-
-h2.hsiete{
-	position: absolute;
-	top: 80%;
-	left: 22%;
-	color: white;
-}
-
-table.p7 {
-	position: absolute;
-	top: 80%;
-	left: 45%;
-	color: white;
-}
-
-h2.hocho{
-	position: absolute;
-	top: 75%;
-	left: 45%;
-	color: white;
-}
-
-table.p8 {
-	position: absolute;
-	top: 85%;
-	left: 90%;
-	color: black;
-}
-
-h2.hnueve{
-	position: absolute;
-	top: 80%;
-	left: 90%;
-	color: black;
-}
-
-table.p9 {
-	position: absolute;
-	top: 80%;
-	left: 63%;
-	color: black;
-}
-
-h2.hdiez{
-	position: absolute;
-	top: 75%;
-	left: 63%;
-	color: black;
-}
-
-
